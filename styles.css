@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #10121b;
+    color: #fff;
+
+}
+
+.main-content{
+    position: relative;
+}
+
+.lines{
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    background-color: green;
+    top: 0;
+}
+
+.line-1, .line-2, .line-3, .line-4{
+    width: 1px;
+    background-color: #fff;
+    opacity: 0.1;
+    min-height: 100%;
+
+}
