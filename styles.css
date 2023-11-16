@@ -8,19 +8,23 @@
 body{
     background-color: #10121b;
     color: #fff;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+
 
 }
 
 .main-content{
     position: relative;
+    min-height: 100vh;
 }
 
 .lines{
     width: 100%;
     min-height: 100%;
     position: absolute;
-    background-color: green;
     top: 0;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .line-1, .line-2, .line-3, .line-4{
@@ -28,5 +32,53 @@ body{
     background-color: #fff;
     opacity: 0.1;
     min-height: 100%;
+}
 
+.content{
+    padding: 6rem 10rem;
+}
+
+.title-container{
+    position: relative;
+    width: 50%;
+}
+
+.title container h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.title-container p{
+    font-size: 4rem;
+    font-weight: 700;
+    opacity: .06;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+p, h1{
+    text-transform: uppercase;
+}
+
+.title-container::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 40%;
+    height: .5rem;
+    background-color: #0381ff6b;
+    bottom: -20%;
+    border-radius: 12px;
+}
+
+.title-container::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 25%;
+    height: .5rem;
+    background-color: #037fff;
+    bottom: -20%;
+    border-radius: 12px;
 }
