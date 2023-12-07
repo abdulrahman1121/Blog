@@ -84,3 +84,21 @@ p, h1{
     border-radius: 12px;
 }
 
+.blogs-con{
+    margin-top: 6rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+}
+
+.blogs-con a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.blogs-con a:hover{
+    color:#037fff
+    
+}
